@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UiBrains Technologies</title>
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        body{
+            font-family: "Comic Sans MS", sans-serif;
+            margin: 0;
+        }
+
+        /* Main Header */
+        header , footer{
+            background: white url("../img/water_flow.gif") no-repeat scroll bottom;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            line-height: 15px;
+        }
+
+        /* Main Navigation */
+
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            float: left;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 25px;
+            display: inline-block;
+        }
+        nav ul li a:hover{
+            background-color: #b9bd89;
+            color: black;
+        }
+        nav ul li a.active{
+            background-color:#636a46;
+            color: white;
+        }
+
+        /* Sidebar Section */
+        aside{
+            float: left;
+            width: 200px;
+            text-align: center;
+            height: 350px;
+            overflow-y: scroll; /* for Scroll Bar */
+        }
+
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 14px 25px;
+            display: block;
+        }
+
+        aside ul li a:hover{
+            background-color: #b9bd89;
+        }
+
+        /* Main Content Section */
+        section{
+            margin-left: 200px;
+            border-left: 2px solid gray;
+            padding: 10px;
+        }
+
+        details{
+            background-color: #636a46;
+            padding: 10px;
+            margin: 5px;
+            color: white;
+            border-radius: 50px;
+        }
+
+        details div{
+            background-color: #b9bd89;
+            color: black;
+            padding: 10px;
+            border-radius: 50px;
+            text-align: center;
+        }
+
+        summary{
+            outline: none;
+        }
+
+        details div h2{
+            color: #636a46;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Main Header -->
+    <header>
+        <h2>UiBrains Technologies</h2>
+        <h3>The Smart way of Learning</h3>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#" class="active">
+                   <i class="fa fa-home"></i> Home</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-id-card"></i> About Us</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-envelope"></i> Contact Us</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-graduation-cap"></i> Careers</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-book"></i> Courses</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Sidebar Section -->
+    <aside>
+        <ul>
+            <li>
+                <a href="#" class="active">HTML</a>
+            </li>
+            <li>
+                <a href="#">CSS</a>
+            </li>
+            <li>
+                <a href="#">JavaScript</a>
+            </li>
+            <li>
+                <a href="#">JQuery</a>
+            </li>
+            <li>
+                <a href="#">AJAX</a>
+            </li>
+            <li>
+                <a href="#">Bootstrap</a>
+            </li>
+            <li>
+                <a href="#">Angular JS</a>
+            </li>
+            <li>
+                <a href="#">React JS</a>
+            </li>
+            <li>
+                <a href="#">Node JS</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Main Content Section -->
+    <section>
+
+        <!-- HTML -->
+        <details>
+            <summary>HTML</summary>
+            <div>
+                <h2>HTML</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet beatae blanditiis commodi consequuntur cumque ducimus esse itaque nam, natus non nulla pariatur possimus quibusdam quisquam repellat repudiandae rerum similique tenetur voluptates. Amet, cumque eos esse exercitationem ipsam iure iusto, laborum minus odit officia quibusdam ratione, sequi veritatis voluptate voluptates?</p>
+            </div>
+        </details>
+
+        <!-- CSS -->
+        <details>
+            <summary>CSS</summary>
+            <div>
+                <h2>CSS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet beatae blanditiis commodi consequuntur cumque ducimus esse itaque nam, natus non nulla pariatur possimus quibusdam quisquam repellat repudiandae rerum similique tenetur voluptates. Amet, cumque eos esse exercitationem ipsam iure iusto, laborum minus odit officia quibusdam ratione, sequi veritatis voluptate voluptates?</p>
+            </div>
+        </details>
+
+        <!-- JavaScript -->
+        <details>
+            <summary>JavaScript</summary>
+            <div>
+                <h2>JavaScript</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet beatae blanditiis commodi consequuntur cumque ducimus esse itaque nam, natus non nulla pariatur possimus quibusdam quisquam repellat repudiandae rerum similique tenetur voluptates. Amet, cumque eos esse exercitationem ipsam iure iusto, laborum minus odit officia quibusdam ratione, sequi veritatis voluptate voluptates?</p>
+            </div>
+        </details>
+
+        <!-- JQuery -->
+        <details>
+            <summary>JQuery</summary>
+            <div>
+                <h2>JQuery</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet beatae blanditiis commodi consequuntur cumque ducimus esse itaque nam, natus non nulla pariatur possimus quibusdam quisquam repellat repudiandae rerum similique tenetur voluptates. Amet, cumque eos esse exercitationem ipsam iure iusto, laborum minus odit officia quibusdam ratione, sequi veritatis voluptate voluptates?</p>
+            </div>
+        </details>
+
+        <!-- AJAX -->
+        <details>
+            <summary>AJAX</summary>
+            <div>
+                <h2>AJAX</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet beatae blanditiis commodi consequuntur cumque ducimus esse itaque nam, natus non nulla pariatur possimus quibusdam quisquam repellat repudiandae rerum similique tenetur voluptates. Amet, cumque eos esse exercitationem ipsam iure iusto, laborum minus odit officia quibusdam ratione, sequi veritatis voluptate voluptates?</p>
+            </div>
+        </details>
+
+        <!-- Bootstrap -->
+        <details>
+            <summary>Bootstrap</summary>
+            <div>
+                <h2>Bootstrap</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet beatae blanditiis commodi consequuntur cumque ducimus esse itaque nam, natus non nulla pariatur possimus quibusdam quisquam repellat repudiandae rerum similique tenetur voluptates. Amet, cumque eos esse exercitationem ipsam iure iusto, laborum minus odit officia quibusdam ratione, sequi veritatis voluptate voluptates?</p>
+            </div>
+        </details>
+
+        <!-- Angular JS -->
+        <details>
+            <summary>Angular JS</summary>
+            <div>
+                <h2>Angular JS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet beatae blanditiis commodi consequuntur cumque ducimus esse itaque nam, natus non nulla pariatur possimus quibusdam quisquam repellat repudiandae rerum similique tenetur voluptates. Amet, cumque eos esse exercitationem ipsam iure iusto, laborum minus odit officia quibusdam ratione, sequi veritatis voluptate voluptates?</p>
+            </div>
+        </details>
+
+    </section>
+
+    <!-- Main Footer -->
+    <footer>
+        <h3>Copyright &copy; 2018, UiBrains Technologies</h3>
+        <p>All Rights Reserved</p>
+        <small>Developed & Maintained by Naveen Saggam</small>
+    </footer>
+
+</body>
+</html>

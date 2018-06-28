@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        div{
+            font-family: "Comic Sans MS", sans-serif;
+            background-color: orange;
+            padding: 10px;
+            width: 400px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- input and label -->
+    <div>
+        <form>
+            <label for="username">User Name</label>
+            <input type="text" id="username">
+            <br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass">
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+    <!-- Table Form -->
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label>UserName</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                    <td>
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!-- Select and Option -->
+    <div>
+        <form>
+            <label>Select a Language</label>
+            <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>JQuery</option>
+                <option>AJAX</option>
+                <option>Bootstrap</option>
+                <option>Angular JS</option>
+            </select>
+        </form>
+    </div>
+
+    <!-- Textarea -->
+    <div>
+        <form>
+            <label>Enter Your Message</label>
+            <textarea rows="5" cols="30"></textarea>
+        </form>
+    </div>
+
+    <!-- datalist -->
+    <div>
+        <form>
+            <label>Select Any Language</label>
+            <input list="technologies" name="tech">
+            <datalist id="technologies">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="JQuery">
+                <option value="AJAX">
+                <option value="Bootstrap">
+                <option value="Angular JS">
+            </datalist>
+        </form>
+    </div>
+
+
+<br><br><br>
+</body>
+</html>

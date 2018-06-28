@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Nav Element</title>
+    <link href="font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            background-image: url("img/nature_path.jpg");
+            overflow: hidden; /* see below */
+        }
+        nav ul li{
+            float: left; /* Hides the background color */
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            padding: 10px 25px;
+            display: inline-block; /* mandatory */
+        }
+        nav ul li a:hover{
+            background-color: rgba(90,190,90,0.6);
+        }
+        nav ul li a.active{
+            background-color: forestgreen;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Main Navigation -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#" class="active">
+                   <i class="fa fa-home"></i> Home</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-id-card"></i> About Us</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-envelope"></i> Contact Us</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-graduation-cap"></i> Careers</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-book"></i> Courses</a>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+</html>
